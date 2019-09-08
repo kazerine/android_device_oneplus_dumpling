@@ -24,6 +24,7 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Inherit some common Carbon stuff.
 $(call inherit-product, vendor/carbon/config/common.mk)
 $(call inherit-product, vendor/carbon/config/gsm.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 PRODUCT_NAME := carbon_dumpling
 PRODUCT_DEVICE := dumpling
